@@ -3,7 +3,7 @@
 :root {
   font-family: Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #131313;
   margin: 0;
   padding: 0;
   box-sizing:border-box;
@@ -13,10 +13,11 @@
 
 }
 body {
-  height: 100vh;
+  height: 100%;
+  overflow:hidden;
   line-height: 1.5;
   max-width: 95%;
-  width:1000px;
+  width:800px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
